@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5403C8B21A4BB71500E0F79D /* onGameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5403C8B01A4BB71500E0F79D /* onGameOver.mp3 */; };
+		5403C8B31A4BB71500E0F79D /* onJump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5403C8B11A4BB71500E0F79D /* onJump.wav */; };
+		542E8FAB1A47EDF90046F2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E8FAA1A47EDF90046F2F3 /* main.m */; };
+		542E8FAE1A47EDF90046F2F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E8FAD1A47EDF90046F2F3 /* AppDelegate.m */; };
+		542E8FB11A47EDF90046F2F3 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E8FB01A47EDF90046F2F3 /* GameScene.m */; };
+		542E8FB31A47EDF90046F2F3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 542E8FB21A47EDF90046F2F3 /* GameScene.sks */; };
+		542E8FB61A47EDF90046F2F3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E8FB51A47EDF90046F2F3 /* GameViewController.m */; };
+		542E8FB91A47EDF90046F2F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E8FB71A47EDF90046F2F3 /* Main.storyboard */; };
+		542E8FBB1A47EDF90046F2F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542E8FBA1A47EDF90046F2F3 /* Images.xcassets */; };
+		542E8FBE1A47EDF90046F2F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542E8FBC1A47EDF90046F2F3 /* LaunchScreen.xib */; };
+		542E8FCA1A47EDF90046F2F3 /* HopHero2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E8FC91A47EDF90046F2F3 /* HopHero2Tests.m */; };
+		542E8FD51A47FC910046F2F3 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E8FD41A47FC910046F2F3 /* Hero.m */; };
+		54702B151A4B396F008EF3D5 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 54702B141A4B396F008EF3D5 /* ground.png */; };
+		54702B181A4B7218008EF3D5 /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 54702B171A4B7218008EF3D5 /* GameData.m */; };
+		548855D61A4926A200067D64 /* WorldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 548855D51A4926A200067D64 /* WorldGenerator.m */; };
+		54ACB2FC1A4A63F700522CDE /* PointsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ACB2FB1A4A63F700522CDE /* PointsLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542E8FC41A47EDF90046F2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542E8F9D1A47EDF90046F2F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542E8FA41A47EDF90046F2F3;
+			remoteInfo = HopHero2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5403C8B01A4BB71500E0F79D /* onGameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = onGameOver.mp3; sourceTree = "<group>"; };
+		5403C8B11A4BB71500E0F79D /* onJump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = onJump.wav; sourceTree = "<group>"; };
+		542E8FA51A47EDF90046F2F3 /* HopHero2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HopHero2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542E8FA91A47EDF90046F2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542E8FAA1A47EDF90046F2F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		542E8FAC1A47EDF90046F2F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		542E8FAD1A47EDF90046F2F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		542E8FAF1A47EDF90046F2F3 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		542E8FB01A47EDF90046F2F3 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		542E8FB21A47EDF90046F2F3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		542E8FB41A47EDF90046F2F3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		542E8FB51A47EDF90046F2F3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		542E8FB81A47EDF90046F2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542E8FBA1A47EDF90046F2F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		542E8FBD1A47EDF90046F2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		542E8FC31A47EDF90046F2F3 /* HopHero2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopHero2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		542E8FC81A47EDF90046F2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542E8FC91A47EDF90046F2F3 /* HopHero2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HopHero2Tests.m; sourceTree = "<group>"; };
+		542E8FD31A47FC910046F2F3 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		542E8FD41A47FC910046F2F3 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		54702B141A4B396F008EF3D5 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		54702B161A4B7218008EF3D5 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		54702B171A4B7218008EF3D5 /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		548855D41A4926A200067D64 /* WorldGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorldGenerator.h; path = ../WorldGenerator.h; sourceTree = "<group>"; };
+		548855D51A4926A200067D64 /* WorldGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorldGenerator.m; path = ../WorldGenerator.m; sourceTree = "<group>"; };
+		54ACB2FA1A4A63F700522CDE /* PointsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointsLabel.h; sourceTree = "<group>"; };
+		54ACB2FB1A4A63F700522CDE /* PointsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointsLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542E8FA21A47EDF90046F2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E8FC01A47EDF90046F2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542E8F9C1A47EDF90046F2F3 = {
+			isa = PBXGroup;
+			children = (
+				542E8FA71A47EDF90046F2F3 /* HopHero2 */,
+				542E8FC61A47EDF90046F2F3 /* HopHero2Tests */,
+				542E8FA61A47EDF90046F2F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542E8FA61A47EDF90046F2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542E8FA51A47EDF90046F2F3 /* HopHero2.app */,
+				542E8FC31A47EDF90046F2F3 /* HopHero2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542E8FA71A47EDF90046F2F3 /* HopHero2 */ = {
+			isa = PBXGroup;
+			children = (
+				542E8FAC1A47EDF90046F2F3 /* AppDelegate.h */,
+				542E8FAD1A47EDF90046F2F3 /* AppDelegate.m */,
+				548855D41A4926A200067D64 /* WorldGenerator.h */,
+				548855D51A4926A200067D64 /* WorldGenerator.m */,
+				542E8FAF1A47EDF90046F2F3 /* GameScene.h */,
+				542E8FB01A47EDF90046F2F3 /* GameScene.m */,
+				54702B161A4B7218008EF3D5 /* GameData.h */,
+				54702B171A4B7218008EF3D5 /* GameData.m */,
+				54ACB2FA1A4A63F700522CDE /* PointsLabel.h */,
+				54ACB2FB1A4A63F700522CDE /* PointsLabel.m */,
+				542E8FD31A47FC910046F2F3 /* Hero.h */,
+				542E8FD41A47FC910046F2F3 /* Hero.m */,
+				5403C8B01A4BB71500E0F79D /* onGameOver.mp3 */,
+				5403C8B11A4BB71500E0F79D /* onJump.wav */,
+				54702B141A4B396F008EF3D5 /* ground.png */,
+				542E8FB21A47EDF90046F2F3 /* GameScene.sks */,
+				542E8FB41A47EDF90046F2F3 /* GameViewController.h */,
+				542E8FB51A47EDF90046F2F3 /* GameViewController.m */,
+				542E8FB71A47EDF90046F2F3 /* Main.storyboard */,
+				542E8FBA1A47EDF90046F2F3 /* Images.xcassets */,
+				542E8FBC1A47EDF90046F2F3 /* LaunchScreen.xib */,
+				542E8FA81A47EDF90046F2F3 /* Supporting Files */,
+			);
+			path = HopHero2;
+			sourceTree = "<group>";
+		};
+		542E8FA81A47EDF90046F2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				542E8FA91A47EDF90046F2F3 /* Info.plist */,
+				542E8FAA1A47EDF90046F2F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		542E8FC61A47EDF90046F2F3 /* HopHero2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				542E8FC91A47EDF90046F2F3 /* HopHero2Tests.m */,
+				542E8FC71A47EDF90046F2F3 /* Supporting Files */,
+			);
+			path = HopHero2Tests;
+			sourceTree = "<group>";
+		};
+		542E8FC71A47EDF90046F2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				542E8FC81A47EDF90046F2F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542E8FA41A47EDF90046F2F3 /* HopHero2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542E8FCD1A47EDF90046F2F3 /* Build configuration list for PBXNativeTarget "HopHero2" */;
+			buildPhases = (
+				542E8FA11A47EDF90046F2F3 /* Sources */,
+				542E8FA21A47EDF90046F2F3 /* Frameworks */,
+				542E8FA31A47EDF90046F2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HopHero2;
+			productName = HopHero2;
+			productReference = 542E8FA51A47EDF90046F2F3 /* HopHero2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		542E8FC21A47EDF90046F2F3 /* HopHero2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542E8FD01A47EDF90046F2F3 /* Build configuration list for PBXNativeTarget "HopHero2Tests" */;
+			buildPhases = (
+				542E8FBF1A47EDF90046F2F3 /* Sources */,
+				542E8FC01A47EDF90046F2F3 /* Frameworks */,
+				542E8FC11A47EDF90046F2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542E8FC51A47EDF90046F2F3 /* PBXTargetDependency */,
+			);
+			name = HopHero2Tests;
+			productName = HopHero2Tests;
+			productReference = 542E8FC31A47EDF90046F2F3 /* HopHero2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542E8F9D1A47EDF90046F2F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BenCodes;
+				TargetAttributes = {
+					542E8FA41A47EDF90046F2F3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					542E8FC21A47EDF90046F2F3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 542E8FA41A47EDF90046F2F3;
+					};
+				};
+			};
+			buildConfigurationList = 542E8FA01A47EDF90046F2F3 /* Build configuration list for PBXProject "HopHero2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542E8F9C1A47EDF90046F2F3;
+			productRefGroup = 542E8FA61A47EDF90046F2F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542E8FA41A47EDF90046F2F3 /* HopHero2 */,
+				542E8FC21A47EDF90046F2F3 /* HopHero2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542E8FA31A47EDF90046F2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542E8FBE1A47EDF90046F2F3 /* LaunchScreen.xib in Resources */,
+				542E8FBB1A47EDF90046F2F3 /* Images.xcassets in Resources */,
+				5403C8B31A4BB71500E0F79D /* onJump.wav in Resources */,
+				542E8FB31A47EDF90046F2F3 /* GameScene.sks in Resources */,
+				542E8FB91A47EDF90046F2F3 /* Main.storyboard in Resources */,
+				54702B151A4B396F008EF3D5 /* ground.png in Resources */,
+				5403C8B21A4BB71500E0F79D /* onGameOver.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E8FC11A47EDF90046F2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542E8FA11A47EDF90046F2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542E8FD51A47FC910046F2F3 /* Hero.m in Sources */,
+				54702B181A4B7218008EF3D5 /* GameData.m in Sources */,
+				542E8FB61A47EDF90046F2F3 /* GameViewController.m in Sources */,
+				542E8FAE1A47EDF90046F2F3 /* AppDelegate.m in Sources */,
+				542E8FB11A47EDF90046F2F3 /* GameScene.m in Sources */,
+				548855D61A4926A200067D64 /* WorldGenerator.m in Sources */,
+				542E8FAB1A47EDF90046F2F3 /* main.m in Sources */,
+				54ACB2FC1A4A63F700522CDE /* PointsLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542E8FBF1A47EDF90046F2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542E8FCA1A47EDF90046F2F3 /* HopHero2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542E8FC51A47EDF90046F2F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542E8FA41A47EDF90046F2F3 /* HopHero2 */;
+			targetProxy = 542E8FC41A47EDF90046F2F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		542E8FB71A47EDF90046F2F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542E8FB81A47EDF90046F2F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		542E8FBC1A47EDF90046F2F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542E8FBD1A47EDF90046F2F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542E8FCB1A47EDF90046F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		542E8FCC1A47EDF90046F2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542E8FCE1A47EDF90046F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HopHero2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		542E8FCF1A47EDF90046F2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HopHero2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		542E8FD11A47EDF90046F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HopHero2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopHero2.app/HopHero2";
+			};
+			name = Debug;
+		};
+		542E8FD21A47EDF90046F2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HopHero2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HopHero2.app/HopHero2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542E8FA01A47EDF90046F2F3 /* Build configuration list for PBXProject "HopHero2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542E8FCB1A47EDF90046F2F3 /* Debug */,
+				542E8FCC1A47EDF90046F2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542E8FCD1A47EDF90046F2F3 /* Build configuration list for PBXNativeTarget "HopHero2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542E8FCE1A47EDF90046F2F3 /* Debug */,
+				542E8FCF1A47EDF90046F2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542E8FD01A47EDF90046F2F3 /* Build configuration list for PBXNativeTarget "HopHero2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542E8FD11A47EDF90046F2F3 /* Debug */,
+				542E8FD21A47EDF90046F2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542E8F9D1A47EDF90046F2F3 /* Project object */;
+}
